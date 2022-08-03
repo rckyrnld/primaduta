@@ -1,0 +1,143 @@
+#sidebar {
+  width: 212px;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;;
+  background: #fff;
+  border-right: 1px solid #e7e7e7;
+  margin-top: 40px;
+}
+
+#main-content {
+  margin-left: 212px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.sidebar-closed #main-content {
+  margin-left: 0px;
+}
+.sidebar-closed #sidebar {
+  margin-left: -220px;
+}
+
+.wrapper {
+  display: inline-block;
+  margin-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.wrapper .wrappanel {
+  min-height: 900px;
+}
+
+.site-min-height {
+  min-height: 900px;
+}
+.site-footer {
+  background: #68dff0;
+  color: #333;
+  padding: 10px 0;
+}
+ul.sidebar-menu , ul.sidebar-menu li ul.sub{
+  margin: -2px 0 0;
+  padding: 0;
+}
+
+ul.sidebar-menu {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#sidebar > ul > li > ul.sub {
+  display: none;
+}
+
+#sidebar > ul > li.active > ul.sub, #sidebar > ul > li > ul.sub > li > a {
+  display: block;
+}
+
+ul.sidebar-menu li ul.sub li{
+  background: #424a5d;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ul.sidebar-menu li.sub-menu{
+    line-height: 10px;
+}
+
+ul.sidebar-menu li.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
+
+ul.sidebar-menu li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:focus {
+    background: #BFCAD1;
+    color: #333;
+    display: block;
+}
+
+ul.sidebar-menu li a:hover {
+    background: #ECF0F1;
+    color: #333;
+    display: block;
+}
+
+
+ul.sidebar-menu li a i {
+    font-size: 14px;
+    padding-right: 6px;
+}
+
+ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
+    color: #333;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #333;
+}
+
+#form-validation label.error {
+  color: red;
+  padding: 5px 0px;
+}
+#valerror label.error {
+	display: none;
+}
+
+@media (max-width: 900px) {
+  #main-content {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  #sidebar {
+    width: 100%;
+    padding-top: 0px;
+    position: relative !important;
+  }
+  .wrapper {
+    margin-top: 10px; 
+  }
+}

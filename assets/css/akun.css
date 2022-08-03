@@ -1,0 +1,266 @@
+html {
+    font-size: 14px;
+}
+
+.head {
+    font-size: 14px;
+}
+
+.navbar-brand {
+    font-size: 14px;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar {
+    width: 212px;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    ;
+    background: #383838;
+    color: #ffffff;
+    border-right: 1px solid #e7e7e7;
+    margin-top: 30px;
+}
+
+#progress-panel {
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    background-color: #ffffff;
+}
+
+#main-content {
+    margin-left: 212px;
+    padding-top: 10px;
+    background-color: #efefef;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.wrapper .wrappanel {
+    min-height: 900px;
+}
+
+.site-min-height {
+    min-height: 900px;
+}
+
+ul.sidebar-menu,
+ul.sidebar-menu li ul.sub {
+    margin: -2px 0 0;
+    padding: 0;
+}
+
+ul.sidebar-menu {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#sidebar>ul>li>ul.sub {
+    display: none;
+}
+
+#sidebar>ul>li.active>ul.sub,
+#sidebar>ul>li>ul.sub>li>a {
+    display: block;
+}
+
+ul.sidebar-menu li ul.sub li {
+    background: #424a5d;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.sidebar-menu li.sub-menu {
+    line-height: 10px;
+}
+
+ul.sidebar-menu li.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+ul.sidebar-menu li a span {
+    display: inline-block;
+}
+
+ul.sidebar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+ul.sidebar-menu li a.active,
+ul.sidebar-menu li a:focus {
+    background: #BFCAD1;
+    color: #333;
+    display: block;
+}
+
+ul.sidebar-menu li a:hover {
+    background: #ECF0F1;
+    color: #333;
+    display: block;
+}
+
+
+ul.sidebar-menu li a i {
+    font-size: 14px;
+    padding-right: 6px;
+}
+
+ul.sidebar-menu li a:hover i,
+ul.sidebar-menu li a:focus i {
+    color: #333;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #333;
+}
+
+.bc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.bc li {
+    float: left;
+    font-size: 12px;
+    padding: 5px 0px;
+    color: #121212;
+}
+
+.bc li a {
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    padding-right: 5px;
+    text-decoration: none;
+    border-right: 1px solid #050505;
+    margin-right: 5px;
+}
+
+.bc li a:hover {
+    background-color: #efefef;
+}
+
+@media (max-width: 780px) {
+    #main-content {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    #sidebar {
+        width: 100%;
+        padding-top: 5px;
+        position: relative !important;
+    }
+
+    ul.sidebar-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    ul.sidebar-menu li {
+        float: left;
+    }
+
+    ul.sidebar-menu li a {
+        background-color: #efefef;
+        color: #121212;
+        margin: 2px 2px;
+    }
+
+    .wrapper {
+        margin-top: 10px;
+    }
+}
+
+label.error {
+    font-size: 12px;
+    display: inline;
+    color: red;
+    display: none;
+}
+
+#form-validation label.error {
+    color: red;
+    padding: 5px 0px;
+}
+
+#valerror label.error {
+    display: none;
+}
+
+/* css modal */
+* {
+    box-sizing: border-box
+}
+
+/* Set a style for all buttons */
+.modalcss button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.modalcss button:hover {
+    opacity: 1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.modalcss .cancelbtn,
+.deletebtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add a color to the cancel button */
+.modalcss .cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+/* Add a color to the delete button */
+.modalcss .deletebtn {
+    background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.modalcss .container {
+    padding: 16px;
+    text-align: center;
+}
