@@ -1,8 +1,16 @@
 <!-- main content start -->
 <section class="container my-5">
     <div class="row">
-        <div class="col-lg-8 my-4">
-            <img src="<?php echo base_url('assets/images/undraw_login_re_4vu2.svg'); ?>" style="width: 80%;" class="img-fluid" />
+        <div class="col-lg-8">
+            <!--<img src="<?php echo base_url('assets/images/undraw_login_re_4vu2.svg'); ?>" style="width: 80%;" class="img-fluid" />-->
+	    <div class="card rounded-0">
+                <div class="card-header">PENGUMUMAN</div>
+                <div class="card-body">
+                    <p style="font-size: 20px;" class="text-center"><b><span style="color: red;">PENGUMUMAN</span></b></p> 
+		    <p style="font-size: 20px;" class="text-center mb-5"><b>Perpanjangan Pendaftaran Primaduta 2022</b></p>
+                    <p style="font-size: 18px;" class="text-center">Pendaftaran Penghargaan Primaduta 2022 <b>diperpanjang</b> sampai <b>5 Agustus 2022</b></p>
+                </div>
+            </div>
         </div>
         <div class="col-lg-4">
             <div class="card rounded-0">
